@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Minions on a Mission</title>
+
+  	<link rel="stylesheet" type="reset" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Fredoka+One" rel="stylesheet">
+
+  	
+</head>
+
+<body>
+
+<div class="row">
+	<div class="col-md-12">
+		<div class="title">
+			<h1>Minions Needed for a Mission</h1>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-md-8">
+		<div class="directions">
+			<p> Help Gru gather as many minions as he needs for his mission.</p>
+
+			<p> You will be given a random number of minions to collect at the start of the game. </p>
+
+			<p> There are four minions below. By clicking on a minion, you will add a specific amount of minions to your total minion count.</p>
+
+			<p>You will win the game by matching your total minion count to the amount of minions Gru needs for his mission.</p>
+
+			<p>The value of each minion is hidden from you until you click on it.</p>
+
+			<p>BEWARE!! Everytime the game starts, the value of each minion will change.</p>
+		</div>
+	</div>
+
+	<div class="col-md-4">
+
+		<img class="gruImage" id="gru" src="assets/images/GruNew.png" height=250>
+
+	</div>
+</div>
+
+<div class="score">
+
+<div class="row">
+	
+	<div class="col-md-4">
+		<p id="need">Minion Number Gru Needs</p> <p id="mincount"></p>
+	</div>
+
+	<div class="col-md-4">
+		<p id="count">Total Minion Count</p> <p id="minneed"> </p>
+	</div>
+
+	<div class="col-md-2">
+		<p id="yes">Successful Missions</p> <p id="wins"></p>
+	</div>
+
+	<div class="col-md-2">
+		<p id="no">Failed Missions</p> <p id="lose"></p>
+	</div>
+
+</div>
+
+</div>
+
+
+<div class="minions">
+
+	<button class="minbutton" id="minone"><img src="assets/images/minion1.png " width=60 height=100></button>
+		
+
+	
+	<button class="minbutton" id="mintwo"><img src="assets/images/minion3.png" width=50 height=95></button>
+		
+
+		
+	<button class="minbutton"  id="minthree"><img  src="assets/images/minonone.png" width=70 height=100></button>
+		
+
+		
+	<button class="minbutton" id="minfour" ><img src="assets/images/minionseven.png" width=80 height=100></button>
+		
+</div>
+
+<div class="music">
+
+	<button class="btn btn-warning btn-xs theme-button"><span class="glyphicon glyphicon-music"></span> Play Minion Tunes</button>
+
+	 <button class="btn btn-primary btn-xs pause-button"><span class="glyphicon glyphicon-pause"></span> Pause Minion Tunes</button>
+
+</div>
+
+<div class="copy">
+	<p>&copy;N.Ersing</p>
+
+</div>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script> 
+</body>
+
+</html>

@@ -1,0 +1,128 @@
+body{
+	min-height:100%;
+	background-image: url("../images/ravenna.png");
+	 overflow-x:hidden;
+	/*background-size:cover;                     
+    background-repeat: no-repeat;
+    background-position: center center; 
+       box-sizing: border-box;*/
+}
+
+html{
+	position:relative;
+	min-height:100%;
+}
+
+.title{
+	font-family: 'Fredoka One', cursive;
+	font-size:30px;
+	text-align:center;
+    text-shadow: 0 0 10px #fff,
+		0 0 20px #fff,
+		0 0 30px #fff,
+		0 0 40px #4CE0D2,
+		0 0 70px #4CE0D2,
+		0 0 80px #4CE0D2,
+		0 0 100px #4CE0D2,
+		0 0 150px #4CE0D2;
+}
+
+
+.directions{
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 15px;
+	margin-top:20px;
+	margin-right:30px;
+	margin-left:30px;
+}
+
+/*	
+#fix-row{
+	margin-right:0;
+	margin-left:0;
+}
+
+
+#fix-head{
+	margin-right:0;
+	margin-left:0;
+}
+*/
+
+.score{
+	font-family: 'Fredoka One', cursive;
+	margin-top:20px;
+	font-size:15px;
+	text-align:center;
+
+
+}
+
+.minions{
+	text-align:center;
+	margin-top:40px;
+	padding:0;
+}
+
+.minbutton {
+	background-color: transparent;	
+}
+
+.gruImage{
+	background-color: transparent;	
+}
+
+#mincount,
+#minneed{
+	text-align:center;
+	font-size:35px;
+}
+
+#need,
+#count{
+	font-size:18px;
+	
+}
+
+#wins,
+#lose{
+	text-align:center;
+	font-size:20px;
+}
+
+
+
+button{
+	border:0px;
+	background-color:none;
+
+}
+
+img{
+	background-color:transparent;
+}
+
+
+button:focus {outline:0;}
+
+.music{
+	text-align:center;
+	margin-top:30px;
+}
+
+
+.copy{
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:20px;
+}
+
+
+
+/*	border: 1px dashed #4F5CC1;
+	box-shadow: 0 0 0 3px #A6E0DA, 0 0 0 5px #4F5CC1, 0 0 0 10px #fff, 0 0 2px 10px #eee;
+}
+	/*border-top: 3px solid #4F5CC1;
+	border-left: 1px solid #4F5CC1;
+	border-right: 1px solid #4F5CC1;
+}*/
+
